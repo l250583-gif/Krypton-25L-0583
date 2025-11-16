@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRYPTON - AI Research Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">KRYPTON</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#join">Join Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>KRYPTON AI Research Hub</h1>
+                <p>Advancing artificial intelligence through cutting-edge research and collaboration</p>
+                <a href="#join" class="btn">Join Our Research Team</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About KRYPTON</h2>
+                <div class="about-content">
+                    <p>KRYPTON is a premier AI research hub dedicated to advancing the field of artificial intelligence through innovative research and collaboration. Our team of experts works on solving complex problems in machine learning, computer vision, natural language processing, and robotics.</p>
+                    <p>Founded with the mission to push the boundaries of AI capabilities, we collaborate with academic institutions, industry partners, and research organizations worldwide to create impactful AI solutions.</p>
+                    <div class="student-info">
+                        M Umar Imran | 25L-0583
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Research Areas</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Machine Learning</h3>
+                        <p>Developing advanced algorithms that enable computers to learn from data and improve their performance over time without explicit programming.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Computer Vision</h3>
+                        <p>Creating systems that can interpret, analyze, and understand visual information from the world around us.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Natural Language Processing</h3>
+                        <p>Building models that can understand, interpret, and generate human language with high accuracy and fluency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="section">
+            <div class="container">
+                <h2 class="section-title">Join Our Research Team</h2>
+                <div class="form-container">
+                    <form id="join-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Research Interests</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interests" value="ml"> Machine Learning
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interests" value="cv"> Computer Vision
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interests" value="nlp"> Natural Language Processing
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interests" value="robotics"> Robotics
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interests" value="ethics"> AI Ethics
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Role Preference</label>
+                            <div class="radio-group">
+                                <label class="radio-item">
+                                    <input type="radio" name="role" value="researcher" checked> Researcher
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="role" value="developer"> Developer
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="role" value="student"> Student
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="role" value="partner"> Industry Partner
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select id="country" name="country" class="form-control">
+                                <option value="">Select your country</option>
+                                <option value="us">United States</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="ca">Canada</option>
+                                <option value="au">Australia</option>
+                                <option value="pk">Pakistan</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Why do you want to join KRYPTON?</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your background, interests, and what you hope to contribute..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">KRYPTON</div>
+                <p>AI Research Hub</p>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+                <p>&copy; 2023 KRYPTON. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
